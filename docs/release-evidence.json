@@ -17,5 +17,22 @@
     "evidence": "releases/latest returned 404 or did not return this prerelease tag"
   },
   "manualTest": "not-run-by-codex",
-  "checkedAt": "2026-05-08T00:05:25Z"
+  "checkedAt": "2026-05-08T00:05:25Z",
+  "latest": false,
+  "platformRuntimeGate": "dist/platform-runtime-gate-result.json",
+  "platformType": "android-emulator",
+  "qcdsEvaluation": {
+    "Quality": "S-",
+    "Cost": "S-",
+    "Delivery": "S-",
+    "Satisfaction": "S-",
+    "capReason": "manual-test-not-run-by-codex"
+  },
+  "github": {
+    "repo": "Sunmax0731/bedtime-routine-phone-limiter",
+    "url": "https://github.com/Sunmax0731/bedtime-routine-phone-limiter",
+    "releaseUrl": "https://github.com/Sunmax0731/bedtime-routine-phone-limiter/releases/tag/v0.1.0-alpha.1",
+    "prerelease": true,
+    "latest": false
+  }
 }
