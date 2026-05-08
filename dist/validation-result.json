@@ -1,7 +1,7 @@
 {
   "product": "bedtime-routine-phone-limiter",
   "domain": "AndroidApp",
-  "generatedAt": "2026-05-08T00:05:26.197Z",
+  "generatedAt": "stable-validation-run",
   "totals": {
     "passes": 2,
     "failures": 2,
