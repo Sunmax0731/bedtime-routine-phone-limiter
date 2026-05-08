@@ -2,37 +2,66 @@
   "product": "bedtime-routine-phone-limiter",
   "repository": "Sunmax0731/bedtime-routine-phone-limiter",
   "githubUrl": "https://github.com/Sunmax0731/bedtime-routine-phone-limiter",
-  "tag": "v0.1.0-alpha.1",
   "releaseUrl": "https://github.com/Sunmax0731/bedtime-routine-phone-limiter/releases/tag/v0.1.0-alpha.1",
+  "tag": "v0.1.0-alpha.1",
   "prerelease": true,
-  "assetCount": 3,
-  "assets": [
-    "bedtime-routine-phone-limiter-docs.zip",
-    "manual-test.md",
-    "strict-manual-test-addendum.md"
-  ],
-  "latestCheck": {
-    "exitCode": 1,
-    "isLatest": false,
-    "evidence": "releases/latest returned 404 or did not return this prerelease tag"
-  },
-  "manualTest": "not-run-by-codex",
-  "checkedAt": "2026-05-08T00:05:25Z",
   "latest": false,
-  "platformRuntimeGate": "dist/platform-runtime-gate-result.json",
-  "platformType": "android-emulator",
+  "latestCheck": {
+    "endpoint": "not-found-or-no-stable-release",
+    "latestTag": null,
+    "latestIsThisPrerelease": false
+  },
+  "assetCount": 3,
+  "assets": {
+    "required": [
+      "dist/bedtime-routine-phone-limiter-docs.zip",
+      "docs/manual-test.md",
+      "docs/strict-manual-test-addendum.md"
+    ],
+    "actualNames": [
+      "bedtime-routine-phone-limiter-docs.zip",
+      "manual-test.md",
+      "strict-manual-test-addendum.md"
+    ],
+    "actualCount": 3,
+    "allRequiredPresent": true
+  },
   "qcdsEvaluation": {
     "Quality": "S-",
     "Cost": "S-",
     "Delivery": "S-",
-    "Satisfaction": "S-",
-    "capReason": "manual-test-not-run-by-codex"
+    "Satisfaction": "S-"
   },
-  "github": {
-    "repo": "Sunmax0731/bedtime-routine-phone-limiter",
-    "url": "https://github.com/Sunmax0731/bedtime-routine-phone-limiter",
-    "releaseUrl": "https://github.com/Sunmax0731/bedtime-routine-phone-limiter/releases/tag/v0.1.0-alpha.1",
-    "prerelease": true,
-    "latest": false
+  "platformRuntimeGate": {
+    "product": "bedtime-routine-phone-limiter",
+    "platformType": "android-emulator",
+    "pass": true,
+    "method": "runtime-gate",
+    "manualTest": "not-run-by-codex",
+    "required": [
+      "android/settings.gradle",
+      "android/build.gradle",
+      "android/app/build.gradle",
+      "android/app/src/main/AndroidManifest.xml"
+    ],
+    "evidence": "dist/android-emulator-result.json",
+    "packageName": "com.sunmax0731.bedtimeroutinephonelimiter"
+  },
+  "automatedTests": [
+    {
+      "command": "npm test",
+      "result": "passed"
+    }
+  ],
+  "manualTest": "not-run-by-codex",
+  "git": {
+    "ahead": 0,
+    "behind": 0,
+    "status": "",
+    "localCodex": [
+      "codex/closed-alpha-release"
+    ],
+    "remoteCodex": [],
+    "clean": false
   }
 }
