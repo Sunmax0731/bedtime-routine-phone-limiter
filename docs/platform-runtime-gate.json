@@ -1,0 +1,14 @@
+{
+  "product": "bedtime-routine-phone-limiter",
+  "title": "睡眠前ルーティン・スマホ制限",
+  "domain": "AndroidApp",
+  "ideaNo": 3,
+  "platformType": "android-emulator",
+  "expectedPublicTarget": "Google Play",
+  "browser": null,
+  "android": {
+    "packageName": "com.sunmax0731.bedtimeroutinephonelimiter",
+    "evidence": "dist/android-emulator-result.json"
+  },
+  "evidence": "dist/platform-runtime-gate-result.json"
+}
